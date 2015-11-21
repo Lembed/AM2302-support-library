@@ -1,7 +1,24 @@
 #ifndef _DHT22_H_
 #define _DHT22_H_
 
+
+#if ARDUINO >= 100
+ #include "Arduino.h"
+#else
+ #include "WProgram.h"
+#endif
+
 #include <inttypes.h>
+
+
+// Setup debug printing macros.
+#ifdef DHT_DEBUG
+  #define DEBUG_PRINT(...) { Serial.print(__VA_ARGS__); }
+  #define DEBUG_PRINTLN(...) { Serial.println(__VA_ARGS__); }
+#else
+  #define DEBUG_PRINT(...) {}
+  #define DEBUG_PRINTLN(...) {}
+#endif
 
 #define DHT22_ERROR_VALUE -995
 

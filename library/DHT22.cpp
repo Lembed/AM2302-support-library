@@ -1,4 +1,4 @@
-iki/*
+/*
   DHT22.cpp - DHT22 sensor library
   Developed by Ben Adams - 2011
 
@@ -42,7 +42,6 @@ http://sheepdogguides.com/arduino/ar3ne1humDHT11.htm
 */
 
 #include "DHT22.h"
-#include <Arduino.h>
 #include <pins_arduino.h>
 
 extern "C" {

@@ -1,6 +1,4 @@
 # DHT22-library
-===
-
 
 a arduino library for DHT22 temperature and humidity sensor
 
@@ -17,3 +15,4 @@ dht22 datasheet pdf
 
 arduino library for dht22
 
+[![Analytics](https://ga-beacon.appspot.com/UA-67438080-1/DHT22/readme?pixel)](https://github.com/Lembed/DHT22)
