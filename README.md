@@ -1,28 +1,19 @@
-# DHT22-library
+## AM2302-support-library
 
-a arduino library for DHT22 temperature and humidity sensor
-
-[![dht22](images/dht22.jpg)](http://www.lembed.org/components/17-temperature-and-humidity-sensor-dht22-.html)
+arduino library for AM2302/DHT22 temperature and humidity sensor
 
 
-#### datasheet
----
-dht22 datasheet pdf
+## contents
 
+* datasheet : the AM2302 datasheet in pdf file.
 
-#### library
----
+* library : the arduino support library and examples
 
-arduino library for dht22
+## install:
 
-* Note: current only support avr architecture board
+visit [how to install arduino library](http://www.lembed.org/wiki/How_to_install_Arduino_Library)
 
-install:
+## License
+ MIT
 
-1.rename the library folder to DHT22 and copy the library to Arduino ide's libraries folder
-
-2.restart the Arduino ide to use
-
-3.or visit [how to install arduino library](http://www.lembed.org/wiki/How_to_install_Arduino_Library)
-
-[![Analytics](https://ga-beacon.appspot.com/UA-67438080-1/DHT22/readme?pixel)](https://github.com/Lembed/DHT22)
+[![Analytics](https://ga-beacon.appspot.com/UA-67438080-1/AM2302-support-library/readme?pixel)](https://github.com/Lembed/AM2302-support-library)
